@@ -13,7 +13,9 @@ body {
 
 .header {
   padding: 0 50px;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   position: fixed;
   color: #000;
@@ -22,10 +24,13 @@ body {
 }
 
 .my-food {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 24px;
   text-align: center;
   padding: 16px;
-  margin-left: 37%;
+  margin-left: auto;
 }
 
 .mail {
@@ -35,7 +40,6 @@ body {
 }
 
 .menu {
-  padding: 0 8px;
   user-select: none;
   padding: 16px;
   font-size: 24px;
@@ -52,7 +56,6 @@ body {
 .gridcontainer {
   display: grid;
   width: 100%;
-  /* grid-template-columns: repeat(autofill, minmax(200px, 1fr)); */
   grid-template-columns: repeat(4, 1fr);
   column-gap: 0;
   row-gap: 15px;
@@ -87,13 +90,13 @@ hr {
   margin: 0 50px 0 7px;
 }
 
+ul {
+  display: flex;
+}
+
 .page-num ul {
   text-align: center;
   margin-left: 40%;
-}
-
-ul {
-  display: flex;
 }
 
 ul li {
@@ -237,13 +240,6 @@ strong {
 }
 
 @media screen and (max-width: 600px) {
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-    overflow-x: hidden;
-  }
-
   #main-container {
     padding: 0 25px;
     max-width: 100%;
