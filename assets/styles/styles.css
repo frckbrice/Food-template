@@ -137,10 +137,9 @@ h4 {
 
 .me-image {
   width: 100%;
-}
-
-._author-img {
-  margin-left: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 blockquote {
@@ -257,9 +256,9 @@ strong {
     overflow-x: hidden;
   }
 
-._menu {
-  margin-left: 15px;
-}
+  ._menu {
+    margin-left: 15px;
+  }
 
   .my-food {
     margin-left: 20%;
@@ -351,4 +350,8 @@ strong {
   ._contries {
     width: 100%;
   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 600px) {
+
 }
