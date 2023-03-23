@@ -65,7 +65,7 @@ body {
   margin: 0;
 }
 
-.cell_image {
+.cell-image {
   width: 100%;
   height: auto;
 }
@@ -198,7 +198,7 @@ blockquote {
   margin: 7px;
 }
 
-.county-lines label._country1 {
+.county-lines label.country1 {
   background-color: #000;
   color: #fff;
   padding: 3px 8px;
@@ -277,7 +277,7 @@ strong {
     overflow-x: hidden;
   }
 
-  img.cell_image {
+  img.cell-image {
     width: 100%;
     height: auto;
     border-style: none;
