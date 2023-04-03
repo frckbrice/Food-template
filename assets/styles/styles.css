@@ -4,6 +4,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: Karma, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #main-container {
@@ -318,7 +320,7 @@ strong {
   }
 
   .cell h3 {
-    margin-top:10px;
+    margin-top: 10px;
   }
 
   .page-num ul {
@@ -349,5 +351,11 @@ strong {
 
   .contries {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  body {
+    margin: 0 1200;
   }
 }
