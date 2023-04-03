@@ -1,7 +1,6 @@
 *,
 body {
   padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: Karma, sans-serif;
   max-width: 1200px;
@@ -351,11 +350,5 @@ strong {
 
   .contries {
     width: 100%;
-  }
-}
-
-@media screen and (min-width: 1201px) {
-  body {
-    margin: 0 1200;
   }
 }
