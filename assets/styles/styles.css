@@ -21,14 +21,14 @@ body {
   position: fixed;
   color: #000;
   background-color: #fff;
-  font-size: 24px;
+  font-size: 23.999px;
 }
 
 .my-food {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 23.99px;
   text-align: center;
   margin: 16px auto;
 }
